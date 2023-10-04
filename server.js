@@ -1,8 +1,8 @@
 const crypto = require("crypto");
 const https = require("https");
 
-const publicKey = "5619c56848f0d9d0ca17fd56f354cb4d";
-const privateKey = "f46f7fb331fc8bfd6fc637da8d1cca7861ae8067";
+const publicKey = "9ab871748d83ae2eb5527ffd69e034de";
+const privateKey = "ad79003cf7316d9bd72c6eda71d1c93d7e807e90";
 
 function generateHash(ts) {
   const hash = crypto
